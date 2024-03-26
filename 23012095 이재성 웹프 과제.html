@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/User/Desktop/week3-2/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Welcome to my website!</title>
+   <link type="text/css" rel="stylesheet" href="./23012095 이재성 웹프 과제_files/style.css">
+   <link href="./23012095 이재성 웹프 과제_files/css" rel="stylesheet">
+   <style>
+        .profile-picture {
+width: 150px;
+border-radius: 50%;
+box-shadow: 0 4px 6px 0 rgba(58, 165, 73, 0.75);
+transition: all ease-in-out .2s;
+}
+.profile-picture {
+width: 150px;
+}
+.profile-picture:hover {
+box-shadow: 0 8px 12px 0 rgba(58, 165, 73, 0.75);
+}
+    </style>
+    <style>
+    .project-image {
+width: 300px;
+border-radius: 5px;
+box-shadow: 0 4px 6px 0 rgba(58, 165, 73, 0.75);
+transition: all ease-in-out .2s;
+}
+.project-image:hover {
+filter: brightness(.75);
+box-shadow: 0 8px 12px 0 rgba(58, 165, 73, 0.75);
+}
+.project-image-wrapper {
+justify-self: center;
+padding: 4%;
+position: relative;
+}
+.project-image-wrapper:hover > h4 {
+visibility: visible;
+}
+.project-image-wrapper > h4 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(58, 165, 73, 0.75);
+visibility: hidden;
+z-index: 2;
+transition: all ease-in-out .2s;
+}
+    </style>
+</head>
+<body>
+   
+   <div class="container">
+      <div class="intro">
+         <!-- you can replace with your own profile picture -->
+         <!-- or use random portrait image here: https://source.unsplash.com/100x100/?portrait -->
+         <img class="profile-picture" src="./23012095 이재성 웹프 과제_files/이재성.jpg">
+         <h1>이재성</h1>
+         <h3>세종대학교 인공지능학과</h3>
+         <p>{{i'm hungry}}</p>
+      </div>
+
+      <div class="about-grid">
+         <div class="i-am">
+            <h3>I am</h3>
+            <ul class="about-list">
+               <li>be often hungry</li>
+               <li>I have a lot of sleep.</li>
+               <li>Positive.</li> 
+            </ul>
+         </div>
+         <div class="i-like">
+            <h3>I like to</h3>
+            <ul class="about-list">
+               <li>Sleeping</li>
+               <li>Playing with friends</li>
+               <li>Lying down</li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="projects-heading">
+         <h3>My Friends</h3>
+         <div class="projects-grid">
+            <!-- you can replace with your own projects images -->
+            <!-- or use random image here: https://source.unsplash.com/random/300x300/?img=1 -->
+            <img class="project-image" src="./23012095 이재성 웹프 과제_files/김병섭3.jpg">
+            <img class="project-image" src="./23012095 이재성 웹프 과제_files/설재언.jpg">
+            <img class="project-image" src="./23012095 이재성 웹프 과제_files/정현우.jpg">
+            <img class="project-image" src="./23012095 이재성 웹프 과제_files/김현우.jpg">
+         </div>
+      </div>
+
+      <div class="links-and-contact">
+         <div class="links">
+            <h3>Links</h3>
+            <ul class="links-list">
+               <li>
+                  <a href="https://github.com/">Github</a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/">Twitter</a>
+               </li>
+               <li>
+                  <a href="https://linkedin.com/">Linkedin</a>
+               </li>
+            </ul>
+         </div>
+
+         <div>
+            <form action="file:///C:/Users/User/Desktop/week3-2/index.html#">
+               <label for="email">
+                  Email: <input type="email" id="email" placeholder="Enter your email"> 
+               </label>
+               <label for="message">
+                  Message: <textarea id="message">Your Message</textarea>
+               </label>
+               <input type="submit" class="submit-button-wrapper " valid="Send Message">
+            </form>
+         </div>
+      </div>
+      <div class="map">
+         <iframe src="./23012095 이재성 웹프 과제_files/embed.html" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+   </div>
+
+</body></html>
